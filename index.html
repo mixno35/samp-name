@@ -4,9 +4,8 @@
 	<title>SAMP Player Name Generator</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css?v=2">
-	<link rel="shortcut icon" href="favicon.ico" type="image/ico">
-	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css?v=4">
+	<link rel="shortcut icon" href="icons/favicon.ico" type="image/ico">
 </head>
 <body>
 	<center class="container-main">
@@ -30,6 +29,21 @@
 					<h5 class="name-gen" placeholder="First name" value="Name" value-ru="Имя" id="name-gen-name">Name</h5>
 					<h5 class="name-gen" placeholder="Last name" value="Subname" value-ru="Фамилия" id="name-gen-subname">Subname</h5>
 				</div>
+				<center>
+				<div class="setting" onclick="openCloseSetting()" id="setting-cont">
+					<h5><i><img src="icons/icon-settings-v2.svg"></i>Settings</h5>
+					<div class="container" id="setting-container" style="display: none;">
+						<label>
+							<input type="checkbox" id="check-gen-name" checked>
+							<h4>Generate first name</h4>
+						</label>
+						<label>
+							<input type="checkbox" id="check-gen-subname" checked>
+							<h4>Generate last name</h4>
+						</label>
+					</div>
+				</div>
+			</center>
 				<div class="c2">
 					<button onclick="generateName()">Generate</button>
 					<button onclick="copyName()">Copy</button>
@@ -39,6 +53,11 @@
 			<h3 class="message" id="message" style="display: none;"></h3>
 		</div>
 	</center>
+
+	<header class="holder">
+		<item>Icons by. <a href="https://www.flaticon.com" target="_blank">Flaticon.com</a></item>
+		<item><a href="list-names.html">List all names</a></item>
+	</header>
 
 	<script type="text/javascript">
 		var firstName = document.getElementById('name-gen-name');
@@ -59,17 +78,19 @@
 		}
 
 		function generateName() {
-			var genNameINT = getRandomInt(0, jsonNAMESLENGTH);
-			var genSubnameINT = getRandomInt(0, jsonSUBNAMESLENGTH);
-
-			firstName.textContent = jsonOBJNAMES[genNameINT]['value'];
-			lastName.textContent = jsonOBJSUBNAMES[genSubnameINT]['value'];
-
-			firstName.setAttribute('value', jsonOBJNAMES[genNameINT]['value']);
-			lastName.setAttribute('value', jsonOBJSUBNAMES[genSubnameINT]['value']);
-
-			firstName.setAttribute('value-ru', jsonOBJNAMES[genNameINT]['value_ru']);
-			lastName.setAttribute('value-ru', jsonOBJSUBNAMES[genSubnameINT]['value_ru']);
+			if (document.getElementById('check-gen-name').checked == true) {
+				var genNameINT = getRandomInt(0, jsonNAMESLENGTH);
+				firstName.textContent = jsonOBJNAMES[genNameINT]['value'];
+				firstName.setAttribute('value', jsonOBJNAMES[genNameINT]['value']);
+				firstName.setAttribute('value-ru', jsonOBJNAMES[genNameINT]['value_ru']);
+			}
+			
+			if (document.getElementById('check-gen-subname').checked == true) {
+				var genSubnameINT = getRandomInt(0, jsonSUBNAMESLENGTH);
+				lastName.textContent = jsonOBJSUBNAMES[genSubnameINT]['value'];
+				lastName.setAttribute('value', jsonOBJSUBNAMES[genSubnameINT]['value']);
+				lastName.setAttribute('value-ru', jsonOBJSUBNAMES[genSubnameINT]['value_ru']);
+			}
 
 			closeMessage();
 		}
@@ -103,6 +124,16 @@
 		function closeMessage() {
 			document.getElementById('message').style.display = 'none';
 			// Close message
+		}
+
+		function openCloseSetting() {
+			if (document.getElementById('setting-container').style.display == 'none') {
+				document.getElementById('setting-container').style.display = 'block';
+				document.getElementById('setting-cont').style.background = '#ededed';
+			} else {
+				document.getElementById('setting-container').style.display = 'none';
+				document.getElementById('setting-cont').style.background = '';
+			}
 		}
 
 		function getNames(sex) {

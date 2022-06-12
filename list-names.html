@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css?v=4">
+	<link rel="shortcut icon" href="icons/favicon.ico" type="image/ico">
+	<title>SAMP List all names</title>
+</head>
+<body>
+	<center class="container-main">
+		<div class="content">
+			<h1 class="title-big" id="names-man">Man names</h1>
+		</div>
+	</center>
+
+	In developing...
+
+	<script type="text/javascript">
+		var jsonOBJNAMESMAN = null;
+		var jsonNAMESMANLENGTH = 0;
+		function loadManNames() {
+			var request = new XMLHttpRequest();
+		    request.open('GET', 'names-man.json?v=1', true);
+		    request.send(null);
+		    request.onreadystatechange = function () {
+		        if (request.readyState === 4 && request.status === 200) {
+		            var type = request.getResponseHeader('Content-Type');
+		            if (type.indexOf("text") !== 1) {
+		                // console.log(request.responseText);
+		                jsonOBJNAMESMAN = JSON.parse(request.responseText);
+		                jsonNAMESMANLENGTH = Object.keys(jsonOBJNAMESMAN).length;
+
+		                document.getElementById('names-man').textContent = 'Man names - ' + jsonNAMESMANLENGTH;
+		                injectManNames();
+		            }
+		        }
+		    }
+		}
+
+	    var jsonOBJNAMESWOMAN = null;
+		var jsonNAMESWOMANLENGTH = 0;
+		function loadWomanNames() {
+			var request = new XMLHttpRequest();
+		    request.open('GET', 'names-woman.json', true);
+		    request.send(null);
+		    request.onreadystatechange = function () {
+		        if (request.readyState === 4 && request.status === 200) {
+		            var type = request.getResponseHeader('Content-Type');
+		            if (type.indexOf("text") !== 1) {
+		                // console.log(request.responseText);
+		                jsonOBJNAMESWOMAN = JSON.parse(request.responseText);
+		                jsonNAMESWOMANLENGTH = Object.keys(jsonOBJNAMESWOMAN).length;
+
+		                injectWomanNames();
+		            }
+		        }
+		    }
+		}
+
+		function injectManNames() {
+			for (var i=0; i < jsonNAMESMANLENGTH; i++) {
+			   console.log(i + '. ' + jsonOBJNAMESMAN[i]['value'] + '(' + jsonOBJNAMESMAN[i]['value_ru'] + ')' + '(' + jsonOBJNAMESMAN[i]['country'] + ')')
+			}
+		}
+
+		function injectWomanNames() {
+			// body...
+		}
+	</script>
+</body>
+</html>

@@ -1,898 +1,1122 @@
 [
 	{
 		"value":"Adriana",
-		"value_ru":"Адриана"
+		"value_ru":"Адриана",
+		"country":"USA"
 	},
 	{
 		"value":"Ada",
-		"value_ru":"Ада"
+		"value_ru":"Ада",
+		"country":"USA"
 	},
 	{
 		"value":"Abby",
-		"value_ru":"Эбби"
+		"value_ru":"Эбби",
+		"country":"USA"
 	},
 	{
 		"value":"Adrianne",
-		"value_ru":"Адрианна"
+		"value_ru":"Адрианна",
+		"country":"USA"
 	},
 	{
 		"value":"Adrienne",
-		"value_ru":"Адрианна"
+		"value_ru":"Адрианна",
+		"country":"USA"
 	},
 	{
 		"value":"Aimee",
-		"value_ru":"Эйми"
+		"value_ru":"Эйми",
+		"country":"USA"
 	},
 	{
 		"value":"Alexa",
-		"value_ru":"Алекса"
+		"value_ru":"Алекса",
+		"country":"USA"
 	},
 	{
 		"value":"Alana",
-		"value_ru":"Аланна"
+		"value_ru":"Аланна",
+		"country":"USA"
 	},
 	{
 		"value":"Alanna",
-		"value_ru":"Аланна"
+		"value_ru":"Аланна",
+		"country":"USA"
 	},
 	{
 		"value":"Alexandra",
-		"value_ru":"Александра"
+		"value_ru":"Александра",
+		"country":"USA"
 	},
 	{
 		"value":"Alice",
-		"value_ru":"Алиса"
+		"value_ru":"Алиса",
+		"country":"USA"
 	},
 	{
 		"value":"Alice",
-		"value_ru":"Элис"
+		"value_ru":"Элис",
+		"country":"USA"
 	},
 	{
 		"value":"Alison",
-		"value_ru":"Элисон"
+		"value_ru":"Элисон",
+		"country":"USA"
 	},
 	{
 		"value":"Allison",
-		"value_ru":"Алисон"
+		"value_ru":"Алисон",
+		"country":"USA"
 	},
 	{
 		"value":"Alyssa",
-		"value_ru":"Алисса"
+		"value_ru":"Алисса",
+		"country":"USA"
 	},
 	{
 		"value":"Amanda",
-		"value_ru":"Аманда"
+		"value_ru":"Аманда",
+		"country":"USA"
 	},
 	{
 		"value":"Amy",
-		"value_ru":"Эми"
+		"value_ru":"Эми",
+		"country":"USA"
 	},
 	{
 		"value":"Amber",
-		"value_ru":"Эмбер"
+		"value_ru":"Эмбер",
+		"country":"USA"
 	},
 	{
 		"value":"Ana",
-		"value_ru":"Ана"
+		"value_ru":"Ана",
+		"country":"USA"
 	},
 	{
 		"value":"Andrea",
-		"value_ru":"Андреа"
+		"value_ru":"Андреа",
+		"country":"USA"
 	},
 	{
 		"value":"Angela",
-		"value_ru":"Анжела"
+		"value_ru":"Анжела",
+		"country":"USA"
 	},
 	{
 		"value":"Anita",
-		"value_ru":"Анита"
+		"value_ru":"Анита",
+		"country":"USA"
 	},
 	{
 		"value":"Ann",
-		"value_ru":"Энн"
+		"value_ru":"Энн",
+		"country":"USA"
 	},
 	{
 		"value":"Anne",
-		"value_ru":"Энн"
+		"value_ru":"Энн",
+		"country":"USA"
 	},
 	{
 		"value":"Ane",
-		"value_ru":"Энн"
+		"value_ru":"Энн",
+		"country":"USA"
 	},
 	{
 		"value":"Anna",
-		"value_ru":"Анна"
+		"value_ru":"Анна",
+		"country":"USA"
 	},
 	{
 		"value":"Annette",
-		"value_ru":"Аннетт"
+		"value_ru":"Аннетт",
+		"country":"USA"
 	},
 	{
 		"value":"Annie",
-		"value_ru":"Энни"
+		"value_ru":"Энни",
+		"country":"USA"
 	},
 	{
 		"value":"Aria",
-		"value_ru":"Ария"
+		"value_ru":"Ария",
+		"country":"USA"
 	},
 	{
 		"value":"Ashley",
-		"value_ru":"Эшли"
+		"value_ru":"Эшли",
+		"country":"USA"
 	},
 	{
 		"value":"Audrey",
-		"value_ru":"Одри"
+		"value_ru":"Одри",
+		"country":"USA"
 	},
 	{
 		"value":"Barbara",
-		"value_ru":"Барбара"
+		"value_ru":"Барбара",
+		"country":"USA"
 	},
 	{
 		"value":"Beatrice",
-		"value_ru":"Беатрис"
+		"value_ru":"Беатрис",
+		"country":"USA"
 	},
 	{
 		"value":"Becky",
-		"value_ru":"Бекки"
+		"value_ru":"Бекки",
+		"country":"USA"
 	},
 	{
 		"value":"Becki",
-		"value_ru":"Бекки"
+		"value_ru":"Бекки",
+		"country":"USA"
 	},
 	{
 		"value":"Becca",
-		"value_ru":"Бекка"
+		"value_ru":"Бекка",
+		"country":"USA"
 	},
 	{
 		"value":"Belinda",
-		"value_ru":"Белинда"
+		"value_ru":"Белинда",
+		"country":"USA"
 	},
 	{
 		"value":"Bertha",
-		"value_ru":"Берта"
+		"value_ru":"Берта",
+		"country":"USA"
 	},
 	{
 		"value":"Beryl",
-		"value_ru":"Берил"
+		"value_ru":"Берил",
+		"country":"USA"
 	},
 	{
 		"value":"Beth",
-		"value_ru":"Бет"
+		"value_ru":"Бет",
+		"country":"USA"
 	},
 	{
 		"value":"Betty",
-		"value_ru":"Бетти"
+		"value_ru":"Бетти",
+		"country":"USA"
 	},
 	{
 		"value":"Beverly",
-		"value_ru":"Беверли"
+		"value_ru":"Беверли",
+		"country":"USA"
 	},
 	{
 		"value":"Bonnie",
-		"value_ru":"Бонни"
+		"value_ru":"Бонни",
+		"country":"USA"
 	},
 	{
 		"value":"Brandi",
-		"value_ru":"Бренди"
+		"value_ru":"Бренди",
+		"country":"USA"
 	},
 	{
 		"value":"Brenda",
-		"value_ru":"Бренда"
+		"value_ru":"Бренда",
+		"country":"USA"
 	},
 	{
 		"value":"Candice",
-		"value_ru":"Кэндис"
+		"value_ru":"Кэндис",
+		"country":"USA"
 	},
 	{
 		"value":"Carly",
-		"value_ru":"Карли"
+		"value_ru":"Карли",
+		"country":"USA"
 	},
 	{
 		"value":"Carmen",
-		"value_ru":"Кармен"
+		"value_ru":"Кармен",
+		"country":"USA"
 	},
 	{
 		"value":"Camille",
-		"value_ru":"Камилла"
+		"value_ru":"Камилла",
+		"country":"USA"
 	},
 	{
 		"value":"Carol",
-		"value_ru":"Кэрол"
+		"value_ru":"Кэрол",
+		"country":"USA"
 	},
 	{
 		"value":"Caroline",
-		"value_ru":"Каролина"
+		"value_ru":"Каролина",
+		"country":"USA"
 	},
 	{
 		"value":"Carolyn",
-		"value_ru":"Кэролайн"
+		"value_ru":"Кэролайн",
+		"country":"USA"
 	},
 	{
 		"value":"Carrie",
-		"value_ru":"Кэрри"
+		"value_ru":"Кэрри",
+		"country":"USA"
 	},
 	{
 		"value":"Catherine",
-		"value_ru":"Кэтрин"
+		"value_ru":"Кэтрин",
+		"country":"USA"
 	},
 	{
 		"value":"Cathy",
-		"value_ru":"Кэти"
+		"value_ru":"Кэти",
+		"country":"USA"
 	},
 	{
 		"value":"Chantal",
-		"value_ru":"Шантал"
+		"value_ru":"Шантал",
+		"country":"USA"
 	},
 	{
 		"value":"Charlotte",
-		"value_ru":"Шарлотта"
+		"value_ru":"Шарлотта",
+		"country":"USA"
 	},
 	{
 		"value":"Cheryl",
-		"value_ru":"Шерил"
+		"value_ru":"Шерил",
+		"country":"USA"
 	},
 	{
 		"value":"Сhris",
-		"value_ru":"Крис"
+		"value_ru":"Крис",
+		"country":"USA"
 	},
 	{
 		"value":"Christina",
-		"value_ru":"Кристина"
+		"value_ru":"Кристина",
+		"country":"USA"
 	},
 	{
 		"value":"Christine",
-		"value_ru":"Кристин"
+		"value_ru":"Кристин",
+		"country":"USA"
 	},
 	{
 		"value":"Christy",
-		"value_ru":"Кристи"
+		"value_ru":"Кристи",
+		"country":"USA"
 	},
 	{
 		"value":"Christie",
-		"value_ru":"Кристи"
+		"value_ru":"Кристи",
+		"country":"USA"
 	},
 	{
 		"value":"Cindy",
-		"value_ru":"Синди"
+		"value_ru":"Синди",
+		"country":"USA"
 	},
 	{
 		"value":"Claire",
-		"value_ru":"Клэр"
+		"value_ru":"Клэр",
+		"country":"USA"
 	},
 	{
 		"value":"Сlara",
-		"value_ru":"Клара"
+		"value_ru":"Клара",
+		"country":"USA"
 	},
 	{
 		"value":"Connie",
-		"value_ru":"Конни"
+		"value_ru":"Конни",
+		"country":"USA"
 	},
 	{
 		"value":"Constance",
-		"value_ru":"Констанс"
+		"value_ru":"Констанс",
+		"country":"USA"
 	},
 	{
 		"value":"Crystal",
-		"value_ru":"Кристал"
+		"value_ru":"Кристал",
+		"country":"USA"
 	},
 	{
 		"value":"Kristal",
-		"value_ru":"Кристал"
+		"value_ru":"Кристал",
+		"country":"USA"
 	},
 	{
 		"value":"Krystal",
-		"value_ru":"Кристал"
+		"value_ru":"Кристал",
+		"country":"USA"
 	},
 	{
 		"value":"Cristal",
-		"value_ru":"Кристал"
+		"value_ru":"Кристал",
+		"country":"USA"
 	},
 	{
 		"value":"Dana",
-		"value_ru":"Дана"
+		"value_ru":"Дана",
+		"country":"USA"
 	},
 	{
 		"value":"Dawn",
-		"value_ru":"Дон"
+		"value_ru":"Дон",
+		"country":"USA"
 	},
 	{
 		"value":"Debbie",
-		"value_ru":"Дебби"
+		"value_ru":"Дебби",
+		"country":"USA"
 	},
 	{
 		"value":"Deborah",
-		"value_ru":"Дебора"
+		"value_ru":"Дебора",
+		"country":"USA"
 	},
 	{
 		"value":"Denise",
-		"value_ru":"Денис"
+		"value_ru":"Денис",
+		"country":"USA"
 	},
 	{
 		"value":"Diana",
-		"value_ru":"Диана"
+		"value_ru":"Диана",
+		"country":"USA"
 	},
 	{
 		"value":"Diane",
-		"value_ru":"Дайан"
+		"value_ru":"Дайан",
+		"country":"USA"
 	},
 	{
 		"value":"Donna",
-		"value_ru":"Донна"
+		"value_ru":"Донна",
+		"country":"USA"
 	},
 	{
 		"value":"Doris",
-		"value_ru":"Дорис"
+		"value_ru":"Дорис",
+		"country":"USA"
 	},
 	{
 		"value":"Dorothy",
-		"value_ru":"Дороти"
+		"value_ru":"Дороти",
+		"country":"USA"
 	},
 	{
 		"value":"Eliza",
-		"value_ru":"Элиза"
+		"value_ru":"Элиза",
+		"country":"USA"
 	},
 	{
 		"value":"Elizabeth",
-		"value_ru":"Элизабет"
+		"value_ru":"Элизабет",
+		"country":"USA"
 	},
 	{
 		"value":"Ella",
-		"value_ru":"Элла"
+		"value_ru":"Элла",
+		"country":"USA"
 	},
 	{
 		"value":"Ellen",
-		"value_ru":"Эллен"
+		"value_ru":"Эллен",
+		"country":"USA"
 	},
 	{
 		"value":"Emily",
-		"value_ru":"Эмили"
+		"value_ru":"Эмили",
+		"country":"USA"
 	},
 	{
 		"value":"Emma",
-		"value_ru":"Эмма"
+		"value_ru":"Эмма",
+		"country":"USA"
 	},
 	{
 		"value":"Erika",
-		"value_ru":"Эрика"
+		"value_ru":"Эрика",
+		"country":"USA"
 	},
 	{
 		"value":"Erin",
-		"value_ru":"Эрин"
+		"value_ru":"Эрин",
+		"country":"USA"
 	},
 	{
 		"value":"Esther",
-		"value_ru":"Эстер"
+		"value_ru":"Эстер",
+		"country":"USA"
 	},
 	{
 		"value":"Ethel",
-		"value_ru":"Этель"
+		"value_ru":"Этель",
+		"country":"USA"
 	},
 	{
 		"value":"Eva",
-		"value_ru":"Ева"
+		"value_ru":"Ева",
+		"country":"USA"
 	},
 	{
 		"value":"Evelyn",
-		"value_ru":"Эвелин"
+		"value_ru":"Эвелин",
+		"country":"USA"
 	},
 	{
 		"value":"Faith",
-		"value_ru":"Фэйт"
+		"value_ru":"Фэйт",
+		"country":"USA"
 	},
 	{
 		"value":"Fiona",
-		"value_ru":"Фиона"
+		"value_ru":"Фиона",
+		"country":"USA"
 	},
 	{
 		"value":"Gina",
-		"value_ru":"Джина"
+		"value_ru":"Джина",
+		"country":"USA"
 	},
 	{
 		"value":"Gloria",
-		"value_ru":"Глория"
+		"value_ru":"Глория",
+		"country":"USA"
 	},
 	{
 		"value":"Grace",
-		"value_ru":"Грейс"
+		"value_ru":"Грейс",
+		"country":"USA"
 	},
 	{
 		"value":"Hannah",
-		"value_ru":"Ханна"
+		"value_ru":"Ханна",
+		"country":"USA"
 	},
 	{
 		"value":"Hayley",
-		"value_ru":"Хейли"
+		"value_ru":"Хейли",
+		"country":"USA"
 	},
 	{
 		"value":"Heather",
-		"value_ru":"Хизер"
+		"value_ru":"Хизер",
+		"country":"USA"
 	},
 	{
 		"value":"Helen",
-		"value_ru":"Элен"
+		"value_ru":"Элен",
+		"country":"USA"
 	},
 	{
 		"value":"Helena",
-		"value_ru":"Элена"
+		"value_ru":"Элена",
+		"country":"USA"
 	},
 	{
 		"value":"Holly",
-		"value_ru":"Холли"
+		"value_ru":"Холли",
+		"country":"USA"
 	},
 	{
 		"value":"Irene",
-		"value_ru":"Айрин"
+		"value_ru":"Айрин",
+		"country":"USA"
 	},
 	{
 		"value":"Jade",
-		"value_ru":"Джейд"
+		"value_ru":"Джейд",
+		"country":"USA"
 	},
 	{
 		"value":"Jamie",
-		"value_ru":"Джейми"
+		"value_ru":"Джейми",
+		"country":"USA"
 	},
 	{
 		"value":"Jane",
-		"value_ru":"Джейн"
+		"value_ru":"Джейн",
+		"country":"USA"
 	},
 	{
 		"value":"Janet",
-		"value_ru":"Жанет"
+		"value_ru":"Жанет",
+		"country":"USA"
 	},
 	{
 		"value":"Jasmine",
-		"value_ru":"Жасмин"
+		"value_ru":"Жасмин",
+		"country":"USA"
 	},
 	{
 		"value":"Janice",
-		"value_ru":"Дженис"
+		"value_ru":"Дженис",
+		"country":"USA"
 	},
 	{
 		"value":"Janis",
-		"value_ru":"Дженис"
+		"value_ru":"Дженис",
+		"country":"USA"
 	},
 	{
 		"value":"Jenna",
-		"value_ru":"Дженна"
+		"value_ru":"Дженна",
+		"country":"USA"
 	},
 	{
 		"value":"Jean",
-		"value_ru":"Джин"
+		"value_ru":"Джин",
+		"country":"USA"
 	},
 	{
 		"value":"Jessica",
-		"value_ru":"Джессика"
+		"value_ru":"Джессика",
+		"country":"USA"
 	},
 	{
 		"value":"Jenny",
-		"value_ru":"Дженни"
+		"value_ru":"Дженни",
+		"country":"USA"
 	},
 	{
 		"value":"Jennifer",
-		"value_ru":"Дженифер"
+		"value_ru":"Дженифер",
+		"country":"USA"
 	},
 	{
 		"value":"Jessie",
-		"value_ru":"Джесси"
+		"value_ru":"Джесси",
+		"country":"USA"
 	},
 	{
 		"value":"Jill",
-		"value_ru":"Джилл"
+		"value_ru":"Джилл",
+		"country":"USA"
 	},
 	{
 		"value":"Joanna",
-		"value_ru":"Джоанна"
+		"value_ru":"Джоанна",
+		"country":"USA"
 	},
 	{
 		"value":"Joan",
-		"value_ru":"Джоан"
+		"value_ru":"Джоан",
+		"country":"USA"
 	},
 	{
 		"value":"Judith",
-		"value_ru":"Джудит"
+		"value_ru":"Джудит",
+		"country":"USA"
 	},
 	{
 		"value":"Judy",
-		"value_ru":"Джуди"
+		"value_ru":"Джуди",
+		"country":"USA"
 	},
 	{
 		"value":"Julia",
-		"value_ru":"Джулия"
+		"value_ru":"Джулия",
+		"country":"USA"
 	},
 	{
 		"value":"Julie",
-		"value_ru":"Джули"
+		"value_ru":"Джули",
+		"country":"USA"
 	},
 	{
 		"value":"Juliet",
-		"value_ru":"Джулиет"
+		"value_ru":"Джулиет",
+		"country":"USA"
 	},
 	{
 		"value":"Juliette",
-		"value_ru":"Джульетта"
+		"value_ru":"Джульетта",
+		"country":"USA"
 	},
 	{
 		"value":"Karen",
-		"value_ru":"Карен"
+		"value_ru":"Карен",
+		"country":"USA"
 	},
 	{
 		"value":"June",
-		"value_ru":"Джун"
+		"value_ru":"Джун",
+		"country":"USA"
 	},
 	{
 		"value":"Kate",
-		"value_ru":"Кейт"
+		"value_ru":"Кейт",
+		"country":"USA"
 	},
 	{
 		"value":"Kathleen",
-		"value_ru":"Кэтлин"
+		"value_ru":"Кэтлин",
+		"country":"USA"
 	},
 	{
 		"value":"Kathy",
-		"value_ru":"Кэти"
+		"value_ru":"Кэти",
+		"country":"USA"
 	},
 	{
 		"value":"Katie",
-		"value_ru":"Кейти"
+		"value_ru":"Кейти",
+		"country":"USA"
 	},
 	{
 		"value":"Kelly",
-		"value_ru":"Келли"
+		"value_ru":"Келли",
+		"country":"USA"
 	},
 	{
 		"value":"Laura",
-		"value_ru":"Лаура"
+		"value_ru":"Лаура",
+		"country":"USA"
 	},
 	{
 		"value":"Lauren",
-		"value_ru":"Лоурен"
+		"value_ru":"Лоурен",
+		"country":"USA"
 	},
 	{
 		"value":"Laurie",
-		"value_ru":"Лори"
+		"value_ru":"Лори",
+		"country":"USA"
 	},
 	{
 		"value":"Leah",
-		"value_ru":"Лия"
+		"value_ru":"Лия",
+		"country":"USA"
 	},
 	{
 		"value":"Lillian",
-		"value_ru":"Лилиан"
+		"value_ru":"Лилиан",
+		"country":"USA"
 	},
 	{
 		"value":"Linda",
-		"value_ru":"Линда"
+		"value_ru":"Линда",
+		"country":"USA"
 	},
 	{
 		"value":"Lisa",
-		"value_ru":"Лиза"
+		"value_ru":"Лиза",
+		"country":"USA"
 	},
 	{
 		"value":"Lori",
-		"value_ru":"Лори"
+		"value_ru":"Лори",
+		"country":"USA"
 	},
 	{
 		"value":"Lorraine",
-		"value_ru":"Лоррейн"
+		"value_ru":"Лоррейн",
+		"country":"USA"
 	},
 	{
 		"value":"Louise",
-		"value_ru":"Луиз"
+		"value_ru":"Луиз",
+		"country":"USA"
 	},
 	{
 		"value":"Louisa",
-		"value_ru":"Луиза"
+		"value_ru":"Луиза",
+		"country":"USA"
 	},
 	{
 		"value":"Lucy",
-		"value_ru":"Люси"
+		"value_ru":"Люси",
+		"country":"USA"
 	},
 	{
 		"value":"Lydia",
-		"value_ru":"Лидия"
+		"value_ru":"Лидия",
+		"country":"USA"
 	},
 	{
 		"value":"Mandy",
-		"value_ru":"Мэнди"
+		"value_ru":"Мэнди",
+		"country":"USA"
 	},
 	{
 		"value":"Margaret",
-		"value_ru":"Маргарет"
+		"value_ru":"Маргарет",
+		"country":"USA"
 	},
 	{
 		"value":"Margie",
-		"value_ru":"Марджи"
+		"value_ru":"Марджи",
+		"country":"USA"
 	},
 	{
 		"value":"Maria",
-		"value_ru":"Мария"
+		"value_ru":"Мария",
+		"country":"USA"
 	},
 	{
 		"value":"Marie",
-		"value_ru":"Мари"
+		"value_ru":"Мари",
+		"country":"USA"
 	},
 	{
 		"value":"Marilyn",
-		"value_ru":"Мэрилин"
+		"value_ru":"Мэрилин",
+		"country":"USA"
 	},
 	{
 		"value":"Martha",
-		"value_ru":"Марта"
+		"value_ru":"Марта",
+		"country":"USA"
 	},
 	{
 		"value":"Mary",
-		"value_ru":"Мэри"
+		"value_ru":"Мэри",
+		"country":"USA"
 	},
 	{
 		"value":"Maureen",
-		"value_ru":"Морин"
+		"value_ru":"Морин",
+		"country":"USA"
 	},
 	{
 		"value":"Marion",
-		"value_ru":"Марион"
+		"value_ru":"Марион",
+		"country":"USA"
 	},
 	{
 		"value":"Megan",
-		"value_ru":"Меган"
+		"value_ru":"Меган",
+		"country":"USA"
 	},
 	{
 		"value":"Melanie",
-		"value_ru":"Мелани"
+		"value_ru":"Мелани",
+		"country":"USA"
 	},
 	{
 		"value":"Melissa",
-		"value_ru":"Мелисса"
+		"value_ru":"Мелисса",
+		"country":"USA"
 	},
 	{
 		"value":"Michele",
-		"value_ru":"Мишель"
+		"value_ru":"Мишель",
+		"country":"USA"
 	},
 	{
 		"value":"Michelle",
-		"value_ru":"Мишель"
+		"value_ru":"Мишель",
+		"country":"USA"
 	},
 	{
 		"value":"Miranda",
-		"value_ru":"Миранда"
+		"value_ru":"Миранда",
+		"country":"USA"
 	},
 	{
 		"value":"Molly",
-		"value_ru":"Молли"
+		"value_ru":"Молли",
+		"country":"USA"
 	},
 	{
 		"value":"Monica",
-		"value_ru":"Моника"
+		"value_ru":"Моника",
+		"country":"USA"
 	},
 	{
 		"value":"Nancy",
-		"value_ru":"Нэнси"
+		"value_ru":"Нэнси",
+		"country":"USA"
 	},
 	{
 		"value":"Natalie",
-		"value_ru":"Натали"
+		"value_ru":"Натали",
+		"country":"USA"
 	},
 	{
 		"value":"Nicole",
-		"value_ru":"Николь"
+		"value_ru":"Николь",
+		"country":"USA"
 	},
 	{
 		"value":"Nikki",
-		"value_ru":"Никки"
+		"value_ru":"Никки",
+		"country":"USA"
 	},
 	{
 		"value":"Norma",
-		"value_ru":"Норма"
+		"value_ru":"Норма",
+		"country":"USA"
 	},
 	{
 		"value":"Pamela",
-		"value_ru":"Памела"
+		"value_ru":"Памела",
+		"country":"USA"
 	},
 	{
 		"value":"Paris",
-		"value_ru":"Пэрис"
+		"value_ru":"Пэрис",
+		"country":"USA"
 	},
 	{
 		"value":"Pat",
-		"value_ru":"Пэт"
+		"value_ru":"Пэт",
+		"country":"USA"
 	},
 	{
 		"value":"Patricia",
-		"value_ru":"Патриция"
+		"value_ru":"Патриция",
+		"country":"USA"
 	},
 	{
 		"value":"Patsy",
-		"value_ru":"Пэтси"
+		"value_ru":"Пэтси",
+		"country":"USA"
 	},
 	{
 		"value":"Patti",
-		"value_ru":"Патти"
+		"value_ru":"Патти",
+		"country":"USA"
 	},
 	{
 		"value":"Patty",
-		"value_ru":"Пэтти"
+		"value_ru":"Пэтти",
+		"country":"USA"
 	},
 	{
 		"value":"Paula",
-		"value_ru":"Паула"
+		"value_ru":"Паула",
+		"country":"USA"
 	},
 	{
 		"value":"Peggy",
-		"value_ru":"Пегги"
+		"value_ru":"Пегги",
+		"country":"USA"
 	},
 	{
 		"value":"Penelope",
-		"value_ru":"Пенелопа"
+		"value_ru":"Пенелопа",
+		"country":"USA"
 	},
 	{
 		"value":"Phyllis",
-		"value_ru":"Филлис"
+		"value_ru":"Филлис",
+		"country":"USA"
 	},
 	{
 		"value":"Priscilla",
-		"value_ru":"Присцилла"
+		"value_ru":"Присцилла",
+		"country":"USA"
 	},
 	{
 		"value":"Rachel",
-		"value_ru":"Рэйчел"
+		"value_ru":"Рэйчел",
+		"country":"USA"
 	},
 	{
 		"value":"Rebecca",
-		"value_ru":"Ребекка"
+		"value_ru":"Ребекка",
+		"country":"USA"
 	},
 	{
 		"value":"Regina",
-		"value_ru":"Регина"
+		"value_ru":"Регина",
+		"country":"USA"
 	},
 	{
 		"value":"Renee",
-		"value_ru":"Рене"
+		"value_ru":"Рене",
+		"country":"USA"
 	},
 	{
 		"value":"Rita",
-		"value_ru":"Рита"
+		"value_ru":"Рита",
+		"country":"USA"
 	},
 	{
 		"value":"Rose",
-		"value_ru":"Роуз"
+		"value_ru":"Роуз",
+		"country":"USA"
 	},
 	{
 		"value":"Ruby",
-		"value_ru":"Руби"
+		"value_ru":"Руби",
+		"country":"USA"
 	},
 	{
 		"value":"Ruth",
-		"value_ru":"Рут"
+		"value_ru":"Рут",
+		"country":"USA"
 	},
 	{
 		"value":"Sally",
-		"value_ru":"Салли"
+		"value_ru":"Салли",
+		"country":"USA"
 	},
 	{
 		"value":"Samantha",
-		"value_ru":"Саманта"
+		"value_ru":"Саманта",
+		"country":"USA"
 	},
 	{
 		"value":"Sandy",
-		"value_ru":"Сэнди"
+		"value_ru":"Сэнди",
+		"country":"USA"
 	},
 	{
 		"value":"Sara",
-		"value_ru":"Сара"
+		"value_ru":"Сара",
+		"country":"USA"
 	},
 	{
 		"value":"Sarah",
-		"value_ru":"Сара"
+		"value_ru":"Сара",
+		"country":"USA"
 	},
 	{
 		"value":"Shannon",
-		"value_ru":"Шеннон"
+		"value_ru":"Шеннон",
+		"country":"USA"
 	},
 	{
 		"value":"Sharon",
-		"value_ru":"Шэрон"
+		"value_ru":"Шэрон",
+		"country":"USA"
 	},
 	{
 		"value":"Sheila",
-		"value_ru":"Шейла"
+		"value_ru":"Шейла",
+		"country":"USA"
 	},
 	{
 		"value":"Shirley",
-		"value_ru":"Ширли"
+		"value_ru":"Ширли",
+		"country":"USA"
 	},
 	{
 		"value":"Sophie",
-		"value_ru":"Софи"
+		"value_ru":"Софи",
+		"country":"USA"
 	},
 	{
 		"value":"Stella",
-		"value_ru":"Стелла"
+		"value_ru":"Стелла",
+		"country":"USA"
 	},
 	{
 		"value":"Stephanie",
-		"value_ru":"Стефани"
+		"value_ru":"Стефани",
+		"country":"USA"
 	},
 	{
 		"value":"Sue",
-		"value_ru":"Сью"
+		"value_ru":"Сью",
+		"country":"USA"
 	},
 	{
 		"value":"Susan",
-		"value_ru":"Сьюзен"
+		"value_ru":"Сьюзен",
+		"country":"USA"
 	},
 	{
 		"value":"Suzanne",
-		"value_ru":"Сюзанна"
+		"value_ru":"Сюзанна",
+		"country":"USA"
 	},
 	{
 		"value":"Susanna",
-		"value_ru":"Сюзанна"
+		"value_ru":"Сюзанна",
+		"country":"USA"
 	},
 	{
 		"value":"Susana",
-		"value_ru":"Сюзанна"
+		"value_ru":"Сюзанна",
+		"country":"USA"
 	},
 	{
 		"value":"Sylvia",
-		"value_ru":"Сильвия"
+		"value_ru":"Сильвия",
+		"country":"USA"
 	},
 	{
 		"value":"Tammy",
-		"value_ru":"Тэмми"
+		"value_ru":"Тэмми",
+		"country":"USA"
 	},
 	{
 		"value":"Tanya",
-		"value_ru":"Таня"
+		"value_ru":"Таня",
+		"country":"USA"
 	},
 	{
 		"value":"Tara",
-		"value_ru":"Тара"
+		"value_ru":"Тара",
+		"country":"USA"
 	},
 	{
 		"value":"Teresa",
-		"value_ru":"Тереза"
+		"value_ru":"Тереза",
+		"country":"USA"
 	},
 	{
 		"value":"Terri",
-		"value_ru":"Терри"
+		"value_ru":"Терри",
+		"country":"USA"
 	},
 	{
 		"value":"Tina",
-		"value_ru":"Тина"
+		"value_ru":"Тина",
+		"country":"USA"
 	},
 	{
 		"value":"Valerie",
-		"value_ru":"Валери"
+		"value_ru":"Валери",
+		"country":"USA"
 	},
 	{
 		"value":"Vanessa",
-		"value_ru":"Ванесса"
+		"value_ru":"Ванесса",
+		"country":"USA"
 	},
 	{
 		"value":"Veronica",
-		"value_ru":"Вероника"
+		"value_ru":"Вероника",
+		"country":"USA"
 	},
 	{
 		"value":"Vicki",
-		"value_ru":"Вики"
+		"value_ru":"Вики",
+		"country":"USA"
 	},
 	{
 		"value":"Vickie",
-		"value_ru":"Вики"
+		"value_ru":"Вики",
+		"country":"USA"
 	},
 	{
 		"value":"Wendy",
-		"value_ru":"Уэнди"
+		"value_ru":"Уэнди",
+		"country":"USA"
 	},
 	{
 		"value":"Victoria",
-		"value_ru":"Виктория"
+		"value_ru":"Виктория",
+		"country":"USA"
 	},
 	{
 		"value":"Yvonne",
-		"value_ru":"Ивонна"
+		"value_ru":"Ивонна",
+		"country":"USA"
 	},
 	{
 		"value":"Whitney",
-		"value_ru":"Уитни"
+		"value_ru":"Уитни",
+		"country":"USA"
 	}
 ]

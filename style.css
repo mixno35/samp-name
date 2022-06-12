@@ -2,6 +2,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	background: #ededed;
+	overflow-x: hidden;
 }
 
 center.container-main {
@@ -17,6 +18,7 @@ center.container-main div.content {
 	margin: 0;
 	max-width: 400px;
 	/* background: white; */
+	text-align: left;
 }
 center.container-main div.content logo {
 	padding: 0;
@@ -56,12 +58,14 @@ center.container-main div.name-gen div.c1 {
 	margin: 0;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 center.container-main div.name-gen div.c2 {
 	padding: 0;
 	margin: 0;
 	margin-top: 20px;
 	user-select: none;
+	text-align: center;
 }
 center.container-main div.name-gen div.c2 button {
 	padding: 5px 10px;
@@ -165,4 +169,133 @@ center.container-main div.container-tablayout ol li.active {
 	background: white;
 	border: 1px solid lightgray;
 	box-shadow: 0 2px 0px rgba(0,0,0,.2);
+}
+
+header.holder {
+	padding: 15px;
+	margin: 0;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+header.holder item {
+	padding: 0;
+	margin: 0 10px;
+	font-weight: 500;
+	font-size: 12px;
+	font-family: system-ui;
+	color: #5a5a5a;
+}
+header.holder item a {
+	color: #5a5a5a;
+	text-decoration: none;
+}
+header.holder item a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+center.container-main div.setting {
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	margin-top: 10px;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	cursor: pointer;
+	user-select: none;
+	overflow: hidden;
+	background: white;
+	position: relative;
+}
+center.container-main div.setting:hover {
+	background: #ededed;
+}
+center.container-main div.setting div.container {
+	padding: 6px 0;
+	margin: 0;
+	border-top: 1px solid lightgray;
+	background: white;
+	cursor: default;
+	position: relative;
+}
+center.container-main div.setting div.container::after {
+	content: "";
+	position: absolute;
+	top: -5px;
+	right: 15px;
+	padding: 4px;
+	background: white;
+	border-top: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	transform: rotate(45deg);
+}
+center.container-main div.setting div.container label {
+	padding: 6px 10px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+center.container-main div.setting div.container label:hover {
+	background: #ededed;
+}
+center.container-main div.setting div.container label h4 {
+	padding: 0;
+	margin: 0;
+	margin-left: 6px;
+	font-weight: 500;
+	font-family: system-ui;
+	font-size: 13px;
+	color: gray;
+}
+center.container-main div.setting div.container label:hover h4 {
+	color: black;
+}
+center.container-main div.setting h5 {
+	padding: 5px 10px;
+	margin: 0;
+	font-weight: 500;
+	font-family: system-ui;
+	font-size: 12px;
+	color: gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+center.container-main div.setting h5 i {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	margin-right: 4px;
+}
+center.container-main div.setting h5 i img {
+	padding: 0;
+	margin: 0;
+	width: 14px;
+	height: 14px;
+	opacity: .5;
+}
+center.container-main div.setting:hover h5 {
+	color: black;
+}
+center.container-main div.setting:hover h5 i img {
+	opacity: 1;
+}
+
+center.container-main h1.title-big {
+	padding: 4px 16px;
+	padding-left: 0px;
+	margin: 0;
+	width: fit-content;
+	font-weight: 600;
+	font-family: system-ui;
+	font-size: 12px;
+	background: linear-gradient(270deg, #e7e7e7, transparent);
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
 }
