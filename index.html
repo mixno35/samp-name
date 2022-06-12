@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SAMP Player Name Generator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css?v=2">
+	<link rel="shortcut icon" href="favicon.ico" type="image/ico">
+	<title></title>
+</head>
+<body>
+	<center class="container-main">
+		<div class="content">
+			<center>
+				<logo>
+					<h5>SAMP</h5>
+					<h6>Player Name Generator</h6>
+				</logo>
+			</center>
+
+			<div class="container-tablayout">
+				<ol>
+					<li onclick="getNames('man')" id="man">Man</li>
+					<li onclick="getNames('woman')" id="woman">Woman</li>
+				</ol>
+			</div>
+
+			<div class="name-gen">
+				<div class="c1">
+					<h5 class="name-gen" placeholder="First name" value="Name" value-ru="Имя" id="name-gen-name">Name</h5>
+					<h5 class="name-gen" placeholder="Last name" value="Subname" value-ru="Фамилия" id="name-gen-subname">Subname</h5>
+				</div>
+				<div class="c2">
+					<button onclick="generateName()">Generate</button>
+					<button onclick="copyName()">Copy</button>
+				</div>
+			</div>
+
+			<h3 class="message" id="message" style="display: none;"></h3>
+		</div>
+	</center>
+
+	<script type="text/javascript">
+		var firstName = document.getElementById('name-gen-name');
+		var lastName = document.getElementById('name-gen-subname');
+
+		var jsonOBJNAMES = null;
+		var jsonNAMESLENGTH = 0;
+		var jsonOBJSUBNAMES = null;
+		var jsonSUBNAMESLENGTH = 0;
+
+		getNames('man'); // Load names
+
+		function copyName() {
+			// alert(firstName.textContent.trim() + "_" + lastName.textContent.trim());
+			var genName = firstName.textContent.trim() + "_" + lastName.textContent.trim();
+			copyStringToClipboard(genName);
+			openMessage('Name "' + genName + '" copied to clipboard.');
+		}
+
+		function generateName() {
+			var genNameINT = getRandomInt(0, jsonNAMESLENGTH);
+			var genSubnameINT = getRandomInt(0, jsonSUBNAMESLENGTH);
+
+			firstName.textContent = jsonOBJNAMES[genNameINT]['value'];
+			lastName.textContent = jsonOBJSUBNAMES[genSubnameINT]['value'];
+
+			firstName.setAttribute('value', jsonOBJNAMES[genNameINT]['value']);
+			lastName.setAttribute('value', jsonOBJSUBNAMES[genSubnameINT]['value']);
+
+			firstName.setAttribute('value-ru', jsonOBJNAMES[genNameINT]['value_ru']);
+			lastName.setAttribute('value-ru', jsonOBJSUBNAMES[genSubnameINT]['value_ru']);
+
+			closeMessage();
+		}
+
+		function copyStringToClipboard(str) {
+			// Create new element
+			var el = document.createElement('textarea');
+			// Set value (string to be copied)
+			el.value = str;
+			// Set non-editable to avoid focus and move outside of view
+			el.setAttribute('readonly', '');
+			el.style = {position: 'absolute', left: '-9999px'};
+			document.body.appendChild(el);
+			// Select text inside element
+			el.select();
+			// Copy text to clipboard
+			document.execCommand('copy');
+			// Remove temporary element
+			document.body.removeChild(el);
+		}
+		function getRandomInt(min, max) {
+		  min = Math.ceil(min);
+		  max = Math.floor(max);
+		  return Math.floor(Math.random() * (max - min)) + min; //Максимум не включается, минимум включается
+		}
+		function openMessage(str) {
+			document.getElementById('message').style.display = 'block';
+			document.getElementById('message').textContent = str;
+			// Open message
+		}
+		function closeMessage() {
+			document.getElementById('message').style.display = 'none';
+			// Close message
+		}
+
+		function getNames(sex) {
+				openMessage('Loading file JSON names...');
+				var sex1 = '-' + sex;
+				var sexID = sex;
+				if (sex == '' || sex == null) {
+					sex1 = '-' + 'man';
+					sexID = 'man';
+				}
+
+				document.getElementById('man').classList.remove('active');
+				document.getElementById('woman').classList.remove('active');
+				document.getElementById(sexID).classList.add('active');
+
+		    var request = new XMLHttpRequest();
+		    request.open('GET', 'names' + sex1 + '.json', true);
+		    request.send(null);
+		    request.onreadystatechange = function () {
+		        if (request.readyState === 4 && request.status === 200) {
+		            var type = request.getResponseHeader('Content-Type');
+		            if (type.indexOf("text") !== 1) {
+		                // console.log(request.responseText);
+		                jsonOBJNAMES = JSON.parse(request.responseText);
+		                jsonNAMESLENGTH = Object.keys(jsonOBJNAMES).length;
+
+		                getSubNames();
+		            }
+		        }
+		    }
+		}
+		function getSubNames() {
+				openMessage('Loading file JSON subnames...');
+				var request = new XMLHttpRequest();
+		    request.open('GET', 'subnames.json', true);
+		    request.send(null);
+		    request.onreadystatechange = function () {
+		        if (request.readyState === 4 && request.status === 200) {
+		            var type = request.getResponseHeader('Content-Type');
+		            if (type.indexOf("text") !== 1) {
+		                // console.log(request.responseText);
+		                jsonOBJSUBNAMES = JSON.parse(request.responseText);
+		                jsonSUBNAMESLENGTH = Object.keys(jsonOBJSUBNAMES).length;
+
+		                openMessage('Click to "Generate" for generating name.');
+		            }
+		        }
+		    }
+		}
+	</script>
+</body>
+</html>
