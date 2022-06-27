@@ -16,12 +16,12 @@
 	},
 	{
 		"value":"Adrianne",
-		"value_ru":"Адрианна",
+		"value_ru":"Адрианн",
 		"country":"USA"
 	},
 	{
 		"value":"Adrienne",
-		"value_ru":"Адрианна",
+		"value_ru":"Эдриенн",
 		"country":"USA"
 	},
 	{
@@ -36,7 +36,7 @@
 	},
 	{
 		"value":"Alana",
-		"value_ru":"Аланна",
+		"value_ru":"Алана",
 		"country":"USA"
 	},
 	{
@@ -52,11 +52,6 @@
 	{
 		"value":"Alice",
 		"value_ru":"Алиса",
-		"country":"USA"
-	},
-	{
-		"value":"Alice",
-		"value_ru":"Элис",
 		"country":"USA"
 	},
 	{
