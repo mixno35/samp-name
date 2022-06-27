@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css?v=5">
+	<link rel="shortcut icon" href="icons/favicon.ico" type="image/ico">
+	<title>SAMP List all names and subnames</title>
+</head>
+<body>
+	<center class="container-main">
+		<div class="content">
+			<center>
+				<logo>
+					<h5>SAMP</h5>
+					<h6 id="names-title">List all names and subnames</h6>
+				</logo>
+			</center>
+
+			<div class="container-tablayout">
+				<ol>
+					<li onclick="loadNames('man')" id="man">Man</li>
+					<li onclick="loadNames('woman')" id="woman">Woman</li>
+					<li onclick="loadNames('sub')" id="sub">Subnames</li>
+				</ol>
+			</div>
+
+			<ul class="list-content" id="list-names">
+				<h6>Choose list.</h6>
+			</ul>
+		</div>
+	</center>
+
+	<script type="text/javascript">
+		var jsonOBJNAMES = null;
+		var jsonNAMESLENGTH = 0;
+
+		function loadNames(sex) {
+			document.getElementById('man').classList.remove('active');
+			document.getElementById('woman').classList.remove('active');
+			document.getElementById('sub').classList.remove('active');
+			document.getElementById(sex).classList.add('active');
+
+			var request = new XMLHttpRequest();
+		    request.open('GET', 'names-' + sex + '.json?v=2', true);
+		    request.send(null);
+		    request.onreadystatechange = function () {
+		        if (request.readyState === 4 && request.status === 200) {
+		            var type = request.getResponseHeader('Content-Type');
+		            if (type.indexOf("text") !== 1) {
+		                // console.log(request.responseText);
+		                jsonOBJNAMES = JSON.parse(request.responseText);
+		                jsonNAMESLENGTH = Object.keys(jsonOBJNAMES).length;
+
+		                if (sex == 'man') {
+		                	document.getElementById('names-title').textContent = 'Man names - ' + jsonNAMESLENGTH;
+		                } if (sex == 'woman') {
+		                	document.getElementById('names-title').textContent = 'Woman names - ' + jsonNAMESLENGTH;
+		                } if (sex == 'sub') {
+		                	document.getElementById('names-title').textContent = 'Subnames - ' + jsonNAMESLENGTH;
+		                }
+		                injectNames();
+		            }
+		        }
+		    }
+		}
+
+		function injectNames() {
+			document.getElementById('list-names').innerHTML = '';
+
+			for (var i=0; i < jsonNAMESLENGTH; i++) {
+			   // console.log(i + '. ' + jsonOBJNAMES[i]['value'] + '(' + jsonOBJNAMES[i]['value_ru'] + ')' + '(' + jsonOBJNAMES[i]['country'] + ')');
+
+			   let translate = document.createElement('translate');
+			   translate.textContent = jsonOBJNAMES[i]['value_ru'];
+
+			   let li = document.createElement('li');
+			   li.textContent = jsonOBJNAMES[i]['value'];
+			   if (i+1 < jsonNAMESLENGTH) {
+			   	li.className = 'divider';
+			   }
+			   li.append(translate);
+
+			   document.getElementById('list-names').append(li);
+
+			}
+		}
+
+		function copyStringToClipboard(str) {
+			// Create new element
+			var el = document.createElement('textarea');
+			// Set value (string to be copied)
+			el.value = str;
+			// Set non-editable to avoid focus and move outside of view
+			el.setAttribute('readonly', '');
+			el.style = {position: 'absolute', left: '-9999px'};
+			document.body.appendChild(el);
+			// Select text inside element
+			el.select();
+			// Copy text to clipboard
+			document.execCommand('copy');
+			// Remove temporary element
+			document.body.removeChild(el);
+		}
+	</script>
+</body>
+</html>
