@@ -344,7 +344,7 @@ center.container-main ul.list-content h6 {
 	color: gray;
 }
 
-center.container-main div.content input {
+center.container-main div.content input[type="name"] {
 	padding: 10px 14px;
 	margin: 0;
 	width: -webkit-fill-available;
