@@ -376,8 +376,10 @@ center.container-main div.content div.log-container h5 {
 	border-radius: 10px;
 }
 center.container-main div.content div.log-container ul {
-	padding: 0;
+	padding: 10px 0;
+	padding-left: 20px;
 	margin: 0;
+	list-style: decimal;
 }
 center.container-main div.content div.log-container ul h6 {
 	padding: 20px;
@@ -388,7 +390,40 @@ center.container-main div.content div.log-container ul h6 {
 	font-family: system-ui;
 	color: gray;
 }
+center.container-main div.content div.log-container ul h6 m {
+	display: block;
+	font-size: 12px;
+	color: darkgray;
+}
 center.container-main div.content div.log-container ul li {
-	padding: 0;
+	padding: 5px 0;
 	margin: 0;
+	font-size: 14px;
+	font-family: system-ui;
+	font-weight: 400;
+	color: gray;
+}
+center.container-main div.content div.log-container ul li line {
+	text-decoration: underline;
+}
+center.container-main div.content div.log-container ul li.correct {
+	color: #27bb27;
+}
+center.container-main div.content div.log-container ul li.cont {
+	color: #d69a0f;
+}
+center.container-main div.content div.log-container ul li value {
+	background: #ebeaea;
+	outline: 1px solid lightgray;
+	border-radius: 2px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid lightgray;
+	padding: 0 5px;
+	font-weight: 500;
+	font-family: system-ui;
+	font-size: 10px;
+	color: #5e5e5e;
+	text-transform: uppercase;
+	pointer-events: none;
+	user-select: none;
 }
