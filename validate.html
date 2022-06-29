@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css?v=5">
+	<link rel="stylesheet" type="text/css" href="style.css?v=6">
 	<link rel="shortcut icon" href="icons/favicon.ico" type="image/ico">
 	<title>SAMP Validate Role Play name</title>
 </head>
@@ -19,11 +19,11 @@
 
 			<input type="name" id="rp-name" placeholder="Enter only name (example, Alexander), without subname...">
 
-			<center class="buttons-valid">
-				<button onclick="runValid()">Validate</button>
+			<center class="buttons-valid" id="clivk-valid">
+				<button onclick="runValid()">Validate (Enter)</button>
 			</center>
 
-			In developing...
+			
 
 			<div class="log-container">
 				<h5>Log...</h5>
@@ -35,7 +35,14 @@
 	</center>
 
 	<script type="text/javascript">
-		var word = document.getElementById('rp-name').value;
+		var word = document.getElementById('rp-name');
+
+		word.addEventListener("keypress", function(event) {
+		  if (event.key === "Enter") {
+		    event.preventDefault();
+		    runValid();
+		  }
+		});
 
 		var jsonOBJMANNAMES = null;
 		var jsonMANNAMESLENGTH = 0;
@@ -88,19 +95,33 @@
 		}
 
 		function runValid() {
+			if (word.value.length < 2) {
+				alert('Enter a name of at least 2 characters.');
+				return;
+			}
 			document.getElementById('log-data').innerHTML = '';
 			for (var i=0; i < jsonNAMESLENGTH; i++) {
-				if (jsonOBJNAMES[i]['value'] == word || jsonOBJNAMES[i]['value_ru'] == word) {
+				if (jsonOBJNAMES[i]['value'] == word.value || jsonOBJNAMES[i]['value_ru'] == word.value) {
 					let li = document.createElement('li');
-			   		li.textContent = jsonOBJNAMES[i]['value'];
+			   		li.innerHTML = jsonOBJNAMES[i]['value'] + ' <value>' + jsonOBJNAMES[i]['value_ru'] + '</value>' + ' <value>Validated</value>';
 			   		li.className = 'correct';
 
 			   		document.getElementById('log-data').append(li);
+			  		resultLog = resultLog + 1;
+				} if (jsonOBJNAMES[i]['value'].includes(word.value)) {
+					let li = document.createElement('li');
+			   		li.innerHTML = jsonOBJNAMES[i]['value'].replace(word.value, '<line>' + word.value + '</line>') + ' (' + word.value + ')' + ' <value>' + jsonOBJNAMES[i]['value_ru'] + '</value>' + ' <value>Contained</value>';
+			   		li.className = 'cont';
+
+			   		document.getElementById('log-data').append(li);
+			  		resultLog = resultLog + 1;
 				}
 			}
 
-			if (resultLog > 0) {
-				document.getElementById('log-data').append('<h6>No result</h6>');
+			if (resultLog == 0) {
+				let h6 = document.createElement('h6');
+				h6.innerHTML = 'No result <m>You may have made a mistake when entering or such a name does not exist or it is missing from our database.</m>';
+				document.getElementById('log-data').append(h6);
 			}
 
 			resultLog = 0;
